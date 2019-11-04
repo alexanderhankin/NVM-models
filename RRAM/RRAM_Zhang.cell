@@ -1,0 +1,39 @@
+//Mellow Writes: Extending Lifetime in Resistive Memories
+//through Selective Slow Write Backs
+
+-MemCellType: memristor
+
+-CellArea (F^2): 4
+-CellAspectRatio: 1
+
+-ResistanceOnAtSetVoltage (ohm): 100000
+-ResistanceOffAtSetVoltage (ohm): 10000000
+-ResistanceOnAtResetVoltage (ohm): 100000
+-ResistanceOffAtResetVoltage (ohm): 10000000
+-ResistanceOnAtReadVoltage (ohm): 1000000
+-ResistanceOffAtReadVoltage (ohm): 10000000
+-ResistanceOnAtHalfResetVoltage (ohm): 500000
+
+-CapacitanceOn (F): 1e-16
+-CapacitanceOff (F): 1e-16
+
+-ReadMode: current
+-ReadVoltage (V): 0.2
+-ReadPower (uW): 0.02
+
+-ResetMode: voltage
+-ResetVoltage (V): 1
+-ResetPulse (ns): 150
+-ResetEnergy (pJ): 0.4
+
+-SetMode: voltage
+-SetVoltage (V): 1
+-SetPulse (ns): 150
+-SetEnergy (pJ): 0.4
+
+-AccessType: None
+//-AccessType: diode
+//-VoltageDropAccessDevice (V): 0.5
+
+-ReadFloating: false
+

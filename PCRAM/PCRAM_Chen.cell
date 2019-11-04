@@ -1,0 +1,27 @@
+# Ultra-thin phase-change bridge memory device using GeSb. 
+
+-MemCellType: PCRAM
+
+-ProcessNode: 60 # scaled
+
+-CellArea (F^2): 10 # scaled
+-CellAspectRatio: 0.4
+
+-ResistanceOn (ohm): 5000
+-ResistanceOff (ohm): 500000
+
+-ReadMode: voltage
+-ReadCurrent (uA): 40 # from sample_PCRAM.cell
+-ReadEnergy (pJ): 2 # from sample_PCRAM.cell
+
+-ResetMode: current
+-ResetCurrent (uA): 90
+-ResetPulse (ns): 60
+
+-SetMode: current
+-SetCurrent (uA): 55
+-SetPulse (ns): 80
+
+-AccessType: CMOS
+-VoltageDropAccessDevice (V): 0.3
+-AccessCMOSWidth (F): 2

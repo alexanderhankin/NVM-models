@@ -1,0 +1,27 @@
+# A 256-Mcell Phase-Change Memory Chip Operating at 2+ Bit/Cell
+
+-MemCellType: PCRAM
+
+-ProcessNode: 90
+
+-CellArea (F^2): 25
+-CellAspectRatio: 1
+
+-ResistanceOn (ohm): 1000
+-ResistanceOff (ohm): 1000000
+
+-ReadMode: voltage
+-ReadCurrent (uA): 60
+-ReadEnergy (pJ): 2 # from sample_PCRAM.cell
+
+-ResetMode: current
+-ResetCurrent (uA): 400
+-ResetPulse (ns): 20
+
+-SetMode: current
+-SetCurrent (uA): 400
+-SetPulse (ns): 20
+
+-AccessType: CMOS
+-VoltageDropAccessDevice (V): 0.3
+-AccessCMOSWidth (F): 2

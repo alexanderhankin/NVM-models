@@ -1,0 +1,27 @@
+# A 0.1um 1.8V 256Mb 66MHz synchronous burst PCRAM.
+
+-MemCellType: PCRAM
+
+-ProcessNode: 100
+
+-CellArea (F^2): 16.6
+-CellAspectRatio: 1
+
+-ResistanceOn (ohm): 1000 # from sample_PCRAM.cell
+-ResistanceOff (ohm): 1000000 # from sample_PCRAM.cell
+
+-ReadMode: voltage
+-ReadCurrent (uA): 60 # from sample_PCRAM.cell
+-ReadEnergy (pJ): 2 # from sample_PCRAM.cell
+
+-ResetMode: current
+-ResetCurrent (uA): 600
+-ResetPulse (ns): 50
+
+-SetMode: current
+-SetCurrent (uA): 200 # from PCRAM_Oh.cell
+-SetPulse (ns): 300
+
+-AccessType: CMOS
+-VoltageDropAccessDevice (V): 0.3
+-AccessCMOSWidth (F): 2

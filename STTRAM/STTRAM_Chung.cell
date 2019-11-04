@@ -1,0 +1,26 @@
+//CELL FILE.. WRITE PULSE: 5ns CURRENT: 40.82uA TRANSISTOR WIDTH: 8.5
+
+//Fully integrated 54nm STT-RAM with the smallest bit cell dimension  
+//for high density memory application 
+
+
+-MemCellType: MRAM
+-CellArea (F^2): 14
+-CellAspectRatio: 1
+-ResistanceOn (ohm): 20000
+-ResistanceOff (ohm): 15000
+-ReadMode: current
+-ReadVoltage (V): 0.65
+-MinSenseVoltage (mV): 25 # from sample_STTRAM.cell
+-ReadPower (uW): 24.1
+-ResetMode: current
+-ResetCurrent (uA): 80 
+-ResetPulse (ns): 10
+-ResetEnergy (pJ): 0.52
+-SetMode: current
+-SetCurrent (uA): 100
+-SetPulse (ns): 10
+-SetEnergy (pJ): 0.75
+-AccessType: CMOS
+-VoltageDropAccessDevice (V): 0.15
+-AccessCMOSWidth (F): 8

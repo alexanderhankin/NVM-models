@@ -1,0 +1,25 @@
+//CELL FILE.. WRITE PULSE: 5ns CURRENT: 40.82uA TRANSISTOR WIDTH: 8.5
+//ODESY: A novel 3T-3MTJ cell design with Optimized area
+//DEnsity, Scalability and latencY
+
+
+-MemCellType: MRAM
+-CellArea (F^2): 63
+-CellAspectRatio: 1
+-ResistanceOn (ohm): 84000
+-ResistanceOff (ohm): 224000
+-ReadMode: current
+-ReadVoltage (V): 1.2
+-MinSenseVoltage (mV): 25
+-ReadPower (uW): 65
+-ResetMode: current
+-ResetCurrent (uA): 150
+-ResetPulse (ns): 2
+-ResetEnergy (pJ): 0.36
+-SetMode: current
+-SetCurrent (uA): 150
+-SetPulse (ns): 2
+-SetEnergy (pJ): 0.36
+-AccessType: CMOS
+-VoltageDropAccessDevice (V): 0.15
+-AccessCMOSWidth (F): 8

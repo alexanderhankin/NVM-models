@@ -1,0 +1,27 @@
+# Enhanced Write Performance of a 64Mb Phase-change Random Access Memory
+
+-MemCellType: PCRAM
+
+-ProcessNode: 120
+
+-CellArea (F^2): 16.6 # from PCRAM_Close.cell
+-CellAspectRatio: 1
+
+-ResistanceOn (ohm): 1200
+-ResistanceOff (ohm): 100000
+
+-ReadMode: voltage
+-ReadCurrent (uA): 40 # scaled
+-ReadEnergy (pJ): 2 # from sample_PCRAM.cell
+
+-ResetMode: current
+-ResetCurrent (uA): 600
+-ResetPulse (ns): 10
+
+-SetMode: current
+-SetCurrent (uA): 200
+-SetPulse (ns): 180
+
+-AccessType: CMOS
+-VoltageDropAccessDevice (V): 0.3 # from sample_PCRAM.cell
+-AccessCMOSWidth (F): 2 # from sample_PCRAM.cell

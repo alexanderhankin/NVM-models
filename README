@@ -1,0 +1,8 @@
+This repository contains the NVSim-compatible NVM cell models used in: 
+
+A. Hankin, T. Shapira, K. Sangaiah, M. Lui, M. Hempstead. Evaluation of Non-Volatile Memory Based
+Last Level Cache Given Modern Use Case Behavior. IEEE International Symposium on Workload
+Characterization (IISWC). Orlando, FL, Novermber 3-5, 2019. 12 pages.
+
+Thank you for your interest in our NVM cell models. Please cite the above paper when using these
+cell models.

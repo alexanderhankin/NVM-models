@@ -1,0 +1,25 @@
+//Demonstration of fully functional 8Mb perpendicular STT-MRAM chips with
+//sub-5ns writing for non-volatile embedded memories"
+
+//CELL FILE.. WRITE PULSE: 5ns CURRENT: 40.82uA TRANSISTOR WIDTH: 8.5
+
+-MemCellType: MRAM
+-CellArea (F^2): 50
+-CellAspectRatio: 1
+-ResistanceOn (ohm): 5000 
+-ResistanceOff (ohm): 7300
+-ReadMode: current
+-ReadVoltage (V): 0.08
+-MinSenseVoltage (mV): 25 # from sample_STTRAM.cell
+-ReadPower (uW): 30 # from sample_STTRAM.cell
+-ResetMode: current
+-ResetCurrent (uA): 52 
+-ResetPulse (ns): 4
+-ResetEnergy (pJ): 1 # from saple_STTRAM.cell
+-SetMode: current
+-SetCurrent (uA): 38
+-SetPulse (ns): 4.5
+-SetEnergy (pJ): 1 # from sample_STTRAM.cell
+-AccessType: CMOS
+-VoltageDropAccessDevice (V): 0.15
+-AccessCMOSWidth (F): 8
